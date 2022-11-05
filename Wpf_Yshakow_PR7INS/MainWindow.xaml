@@ -20,7 +20,7 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="500"/>
         </Grid.RowDefinitions>
-        <TextBlock  Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="60" Foreground="White" >MENU</TextBlock>
+        <TextBlock  Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="60" Foreground="White" FontFamily="Sitka Display" >MENU</TextBlock>
 
         <GroupBox Header="Пицца" Grid.Row="1" Grid.Column="0" Margin="0,0,0,410"  Foreground="White">
             <StackPanel>
