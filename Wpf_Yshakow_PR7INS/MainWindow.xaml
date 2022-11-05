@@ -120,7 +120,45 @@
                 </TextBlock>
             </StackPanel>
         </GroupBox>
-        
-        
+
+        <GroupBox Header="Цена (р)" Grid.Row="1" Grid.Column="1" Margin="5,0,0,410" Foreground="White" >
+            <StackPanel>
+                <TextBlock x:Name="C1" Text="400" Height="22" />
+                <TextBlock x:Name="C2" Text="450" Height="22" />
+                <TextBlock x:Name="C3" Text="420" Height="20" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Цена (р)" Grid.Row="1" Grid.Column="1" Margin="5,100,0,310" Foreground="White" >
+            <StackPanel>
+                <TextBlock x:Name="C4" Text="200" Height="22" />
+                <TextBlock x:Name="C5" Text="500" Height="22" />
+                <TextBlock x:Name="C6" Text="150" Height="20" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Цена (р)" Grid.Row="1" Grid.Column="1" Margin="5,200,0,150" Foreground="White" >
+            <StackPanel>
+                <TextBlock x:Name="C7" Text="100" Height="22" />
+                <TextBlock x:Name="C8" Text="100" Height="22" />
+                <TextBlock x:Name="C9" Text="150" Height="22" />
+                <TextBlock x:Name="C10" Text="110" Height="22" />
+                <TextBlock x:Name="C11" Text="50" Height="22" />
+                <TextBlock x:Name="C12" Text="75" Height="20" />
+            </StackPanel>
+        </GroupBox>
+
+        <Button x:Name="b1" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,16,5,465" Background="White" Click="b1_Click" />
+        <Button x:Name="b2" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,38,5,442" Background="White" Click="b2_Click" />
+        <Button x:Name="b3" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,60,5,420" Background="White" Click="b3_Click" />
+        <Button x:Name="b4" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,115,5,365" Background="White" Click="b4_Click" />
+        <Button x:Name="b5" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,138,5,342" Background="White" Click="b5_Click" />
+        <Button x:Name="b6" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,162,5,318" Background="White" Click="b6_Click" />
+        <Button x:Name="b7" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,215,5,265" Background="White" Click="b7_Click" />
+        <Button x:Name="b8" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,238,5,242" Background="White" Click="b8_Click" />
+        <Button x:Name="b9" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,260,5,220" Background="White" Click="b9_Click" />
+        <Button x:Name="b10" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,282,5,198" Background="White" Click="b10_Click" />
+        <Button x:Name="b11" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,305,5,175" Background="White" Click="b11_Click" />
+        <Button x:Name="b12" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,329,5,150" Background="White" Click="b12_Click" />
     </Grid>
 </Window>

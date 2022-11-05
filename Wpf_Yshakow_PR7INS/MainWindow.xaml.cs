@@ -84,5 +84,65 @@ namespace Wpf_Yshakow_PR7INS
         {
             MessageBox.Show("прохладительный напиток из минеральной или обычной воды, насыщенной углекислым газом.", "Описание Газ. воды:");
         }
+
+        private void b1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void b12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
