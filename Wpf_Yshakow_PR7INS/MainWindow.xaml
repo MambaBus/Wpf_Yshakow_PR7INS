@@ -24,21 +24,21 @@
 
         <GroupBox Header="Пицца" Grid.Row="1" Grid.Column="0" Margin="0,0,0,410"  Foreground="White">
             <StackPanel>
-                <TextBlock x:Name="P1" Text="Маргарита (Описание)" MouseDown="P1_MouseDown" Height="22">
+                <TextBlock x:Name="P1" Text="Маргарита " MouseDown="P1_MouseDown" Height="22">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок.JPG" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P2" Text="Капричоза (Описание)" MouseDown="P2_MouseDown" Height="22" >
+                <TextBlock x:Name="P2" Text="Капричоза " MouseDown="P2_MouseDown" Height="22" >
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок1.JPG" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P3" Text="Гавайская (Описание)" MouseDown="P3_MouseDown" Height="22" >
+                <TextBlock x:Name="P3" Text="Гавайская " MouseDown="P3_MouseDown" Height="22" >
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок3.JPG" Width="380" Height="270"/>
@@ -50,21 +50,21 @@
 
         <GroupBox Header="Закуски" Grid.Row="1" Grid.Column="0" Margin="0,100,0,310" Foreground="White" >
             <StackPanel>
-                <TextBlock x:Name="P4" Text="Стрипсы (Описание)" MouseDown="P4_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P4" Text="Стрипсы " MouseDown="P4_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок6.JPG" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P5" Text="Колбаски (Описание)" MouseDown="P5_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P5" Text="Колбаски " MouseDown="P5_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок4.JPG" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P6" Text="Гренки (Описание)" MouseDown="P6_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P6" Text="Гренки " MouseDown="P6_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="Снимок5.JPG" Width="380" Height="270"/>
@@ -76,42 +76,42 @@
 
         <GroupBox Header="Напитки" Grid.Row="1" Grid.Column="0" Margin="0,200,0,150" Foreground="White" >
             <StackPanel>
-                <TextBlock x:Name="P7" Text="Кола(Описание)" MouseDown="P7_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P7" Text="Кола" MouseDown="P7_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="71dcfd50562557.560887c1cfdd8.jpg" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P8" Text="Пепси (Описание)" MouseDown="P8_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P8" Text="Пепси " MouseDown="P8_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="pepsi(1).jpg" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P9" Text="Фанта (Описание)" MouseDown="P9_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P9" Text="Фанта " MouseDown="P9_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="e.7127a07079910c4554199702ca79772f.jpg" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P10" Text="Пиво (Описание)" MouseDown="P10_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P10" Text="Пиво " MouseDown="P10_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="kruzhka-pivo-bochka-kolosya.jpg" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P11" Text="Вода (Описание)" MouseDown="P11_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P11" Text="Вода " MouseDown="P11_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="ebd3d526112209.581382d7d9997.jpg" Width="380" Height="270"/>
                         </ToolTip>
                     </TextBlock.ToolTip>
                 </TextBlock>
-                <TextBlock x:Name="P12" Text="Газ. вода(Описание)" MouseDown="P12_MouseDown" Height="22" FontWeight="Normal">
+                <TextBlock x:Name="P12" Text="Газ. вода" MouseDown="P12_MouseDown" Height="22" FontWeight="Normal">
                     <TextBlock.ToolTip>
                         <ToolTip>
                             <Image Source="BonAqua-scaled.jpg" Width="380" Height="270"/>
@@ -160,5 +160,22 @@
         <Button x:Name="b10" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,282,5,198" Background="White" Click="b10_Click" />
         <Button x:Name="b11" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,305,5,175" Background="White" Click="b11_Click" />
         <Button x:Name="b12" Content="Выбрать" Grid.Column="2" Grid.Row="1"  Margin="5,329,5,150" Background="White" Click="b12_Click" />
+
+        <TextBlock Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" FontSize="20" Foreground="White">Заказ</TextBlock>
+        <TextBlock x:Name="Zak" Grid.Row="1" Grid.Column="3" Margin="10,31,10,175" Foreground="White" FontSize="15">
+            <TextBlock.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF954545" Offset="0"/>
+                    <GradientStop Color="#FFE85656" Offset="1"/>
+                    <GradientStop Color="#FFBBBB4C" Offset="0.465"/>
+                    <GradientStop Color="#FF50CD78" Offset="0.681"/>
+                    <GradientStop Color="#FFB4AE36" Offset="0.205"/>
+                    <GradientStop Color="#FF99976F" Offset="0.831"/>
+                </LinearGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock  Grid.Row="1" Grid.Column="3" Margin="10,333,97,141" FontSize="16" Foreground="White">Сумма заказа:</TextBlock>
+        <TextBlock x:Name="itog" Grid.Row="1" Grid.Column="3" FontSize="16"  Margin="120,333,26,141" Foreground="Black" Background="#FFF0D6D6"/>
+        <TextBlock  Grid.Row="1" Grid.Column="3" Margin="189,333,7,141" FontSize="16" Foreground="White">Р</TextBlock>
     </Grid>
 </Window>
